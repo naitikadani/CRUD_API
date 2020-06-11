@@ -18,7 +18,7 @@ app.use('/posts', postsRoute);
 
 //Routes
 app.get('/', (req, res) => {
-    res.send("Ab maza aayega na bidhu!");
+    res.send("Landing page");
 })
 
 //Connect to Mongo
